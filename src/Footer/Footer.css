@@ -1,0 +1,36 @@
+svg{
+    margin-top: 100px;
+    background-color: #f5f5f5;
+}
+.footerbg{
+    background-color: #f5f5f5;
+}
+
+#footer{
+    height: 400px;
+    background-color:#D9DDDC;
+}
+
+.logo-in-footer{
+    margin: 50px;
+}
+
+.footer-subtext{
+    width: 150px;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.sosmed{
+    margin-left: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

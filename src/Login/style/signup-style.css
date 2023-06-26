@@ -1,0 +1,177 @@
+#sign-up{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side{
+    background: linear-gradient(141deg, #d8b5ff, #1eae98);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    height: 715px;
+    width: 41%;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
+
+.logo{
+    margin: 50px;
+}
+
+.subtext{
+    margin: 50px;;
+    font-weight: bold;
+}
+
+.red-home{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.125s;
+}
+.red-home:hover{
+    opacity: 50%;
+}
+
+.main-text{
+    margin: 90px 0 50px 250px;
+}
+.sub-text{
+    margin: 100px 0 50px 210px;
+    font-size: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 55%;
+    top: 40%;
+}
+
+.google{
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 450px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 1px;
+    box-shadow: 4px -4px lightgray;
+    transition: .1125s linear;
+    transform: translate(0, 0);
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    margin-bottom: 50px;
+}
+.fa-google{
+    margin-right: 20px;
+}
+
+.google:hover{
+    background-color: lightgray;
+    color: red;
+    box-shadow: 2px -2px red;
+    transform: translate(2px, -2px);
+    border: 2px solid red;
+}
+
+.google:active{
+    transition: 0.04s;
+    box-shadow: 0 0 red;
+    transform: translate(4px, -4px);
+}
+
+.github{
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 450px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 1px;
+    box-shadow: 4px -4px lightgray;
+    transition: .1125s linear;
+    transform: translate(0, 0);
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
+.fa-github{
+    margin-right: 20px;
+}
+
+.github:hover{
+    background-color: lightgray;
+    color: black;
+    box-shadow: 2px -2px black;
+    transform: translate(2px, -2px);
+    border: 2px solid black;
+}
+
+.github:active{
+    transition: 0.04s;
+    box-shadow: 0 0 red;
+    transform: translate(4px, -4px);
+}
+
+.linkedin{
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 450px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 1px;
+    box-shadow: 4px -4px lightgray;
+    transition: .1125s linear;
+    transform: translate(0, 0);
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+.fa-linkedin{
+    margin-right: 20px;
+}
+
+.linkedin:hover{
+    background-color: lightgray;
+    color: blue;
+    box-shadow: 2px -2px blue;
+    transform: translate(2px, -2px);
+    border: 2px solid blue;
+}
+
+.linkedin:active{
+    transition: 0.04s;
+    box-shadow: 0 0 red;
+    transform: translate(4px, -4px);
+}

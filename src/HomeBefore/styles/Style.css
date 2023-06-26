@@ -1,0 +1,251 @@
+.navbar-brand{
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+.nav-item{
+    margin-right: 20px;
+}
+.d-flex{
+    margin-left: 600px;
+}
+.btn{
+    margin-left: 20px;
+}
+
+.img-bg{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    height: 550px;
+    width: 100%;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
+
+.skew{
+    background-color: white;
+    height: 400px;
+    transform: skewY(-12deg);
+    position: relative;
+    bottom: 230px;
+}
+
+#header{
+    height: 750px;
+}
+
+.header-text{
+    width: 500px;
+    display: inline-block;
+    margin-left: 180px;
+    position: relative;
+    bottom: 860px;
+}
+
+.main-text{
+    font-size: 70px;
+    color: black;
+}
+
+.header-subtext{
+    width: 500px;
+    margin-left: 180px;
+    position: relative;
+    bottom: 800px;
+    right: 10px;
+}
+
+.subtext{
+    font-size: 20px;
+}
+
+.main-img1{
+    position: relative;
+    bottom: 1200px;
+    left: 850px;
+    width: 500px;
+}
+
+.main-img2{
+    position: relative;
+    bottom: 1300px;
+    left: 450px;
+    width: 500px;
+}
+
+#main-sect{
+    margin-top: -150px;
+}
+
+.filter-btn{
+    margin: 50px;
+    width: 150px;
+}
+
+.card-sect{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+}
+.user-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+.user-username{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.user-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.single-card{
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    box-shadow: 6px -6px gray;
+    transition: .1125s linear;
+    transform: translate(0, 0);
+}
+.single-card:hover{
+    box-shadow: 3px -3px black;
+    transform: translate(3px, -3px);
+}
+
+.single-card h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card-img{
+    width: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.fa-eye, .fa-heart{
+    margin: 5px 5px 0 10px;
+}
+
+.another-sign-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+    padding-bottom: 50px;
+
+}
+.another-sign-btn p {
+    margin-top: 5px;
+}
+.continue-up{
+    margin: 25px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 50px;
+    max-width: 200px;
+    max-height: 100px;
+    position: relative;
+    letter-spacing: 1px;
+    color: blue;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: .75rem;
+    box-shadow: 4px -4px blue;
+    transition: .1125s linear;
+    transform: translate(0, 0);
+    cursor: pointer;
+}
+.continue-up:hover{
+    box-shadow: 2px -2px blue;
+    transform: translate(2px, -2px);
+}
+.continue-up:active{
+    transition: 0.04s;
+    box-shadow: 0 0 blue;
+    transform: translate(4px, -4px);
+}
+
+svg{
+    margin-top: 100px;
+    background-color: #f5f5f5;
+}
+.footerbg{
+    background-color: #f5f5f5;
+}
+
+#footer{
+    height: 400px;
+    background-color:#D9DDDC;
+}
+
+.logo-in-footer{
+    margin: 50px;
+}
+
+.footer-subtext{
+    width: 150px;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.sosmed{
+    margin-left: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,273 @@
+.navbar-brand{
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+.nav-item{
+    margin-right: 20px;
+}
+
+.d-flex{
+    margin-left: 450px;
+}
+.btn{
+    margin-left: 20px;
+}
+.user-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.popover-wrapper:hover > button::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    scale: 0.25;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.popover-content{
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 104px;
+    right: 90px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: max-content;
+    max-width: 286px;
+    max-height: 286px;
+    padding: 10px;
+    background: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    appearance: none;
+    border-radius: 15px;
+}
+
+.popover-wrapper:hover .popover-content{
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, -40px);
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.popover-wrapper:hover > .popover-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popover-btn{
+    padding: 2px;
+    margin: 5px;
+    width: 100px;
+    background: #ffffff;
+    border: none;
+}
+
+.discovery{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories{
+    margin: 25px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 50px;
+    max-width: 200px;
+    max-height: 100px;
+    position: relative;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: .75rem;
+    box-shadow: 4px -4px black;
+    transition: .1125s linear;
+    transform: translate(0, 0);
+    cursor: pointer;
+}
+.categories:hover{
+    box-shadow: 2px -2px black;
+    transform: translate(2px, -2px);
+}
+.categories:active{
+    transition: 0.04s;
+    box-shadow: 0 0 black;
+    transform: translate(4px, -4px);
+}
+
+#main-sect{
+    background-color: #f5f5f5;
+    height: 200%;
+}
+
+.filter-btn{
+    margin: 50px;
+    width: 150px;
+}
+
+.card-sect{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+}
+.user-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.user-username{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.user-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.single-card{
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    box-shadow: 6px -6px gray;
+    transition: .1125s linear;
+    transform: translate(0, 0);
+}
+.single-card:hover{
+    box-shadow: 3px -3px black;
+    transform: translate(3px, -3px);
+}
+
+.single-card h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card-img{
+    width: 300px;
+}
+
+.fa-eye, .fa-heart{
+    margin: 5px 5px 0 10px;
+}
+
+.btn-outline-secondary{
+    margin: 30px 0 30px 680px;
+}
+
+.another-sign-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+
+}
+.load-more{
+    margin: 25px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 50px;
+    max-width: 200px;
+    max-height: 100px;
+    position: relative;
+    letter-spacing: 1px;
+    color: grey;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: .75rem;
+    box-shadow: 4px -4px grey;
+    transition: .1125s linear;
+    transform: translate(0, 0);
+    cursor: pointer;
+}
+.load-more:hover{
+    box-shadow: 2px -2px grey;
+    transform: translate(2px, -2px);
+}
+.load-more:active{
+    transition: 0.04s;
+    box-shadow: 0 0 grey;
+    transform: translate(4px, -4px);
+}
+
+svg{
+    margin-top: 100px;
+    background-color: #f5f5f5;
+}
+.footerbg{
+    background-color: #f5f5f5;
+}
+
+#footer{
+    height: 400px;
+    background-color:#D9DDDC;
+}
+
+.logo-in-footer{
+    margin: 50px;
+}
+
+.footer-subtext{
+    width: 150px;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.sosmed{
+    margin-left: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
